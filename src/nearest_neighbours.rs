@@ -141,7 +141,7 @@ impl NearestNeighbours {
         // find the ids for the smallest distances and return them
         let mut nns = vec![];
         for neighbour in all_distances.iter().take(no_neighbours) {
-            let id: &String = &distances[neighbour];
+            let id: &String = distances[neighbour];
             let id_owned: String = id.to_string();
             nns.push(id_owned);
         }
