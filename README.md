@@ -67,7 +67,12 @@ let nearest_neighbour = index.query_by_vector(query_vector, n)?;
 ```
 
 ## Install 
-nn-rs will be available from [crates.io](https://crates.io)
+Add the following line to your Cargo.toml file:
+
+```toml
+[dependencies]
+nn-rs = "0.1.0"
+```
 
 ## Features 
 
