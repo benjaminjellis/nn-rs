@@ -1,7 +1,7 @@
 [package]
 name = "nn-rs"
 version = "0.1.0"
-description = "1D nearest neighbors for nalgebra github"
+description = "1D nearest neighbors for nalgebra"
 keywords = ["nearest", "neighbours", "nalgebra"]
 repository = "https://github.com/benjaminjellis/nn-rs"
 authors = ["benjamin ellis <benjaminjellis@protonmail.com>"]
