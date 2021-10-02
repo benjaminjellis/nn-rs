@@ -5,11 +5,12 @@ use serde_json::Value;
 use std::collections::HashMap;
 use std::fs::File;
 use std::path::PathBuf;
+use std::fmt::Debug;
 
 use crate::metrics::metric_factory;
 use crate::types::{Distance, MetricFunction};
 
-#[derive(Deserialize, Serialize)]
+#[derive(Deserialize, Serialize, Debug, Clone)]
 pub struct NearestNeighbours {
     metric: String,
     vectors: HashMap<String, na::DVector<f64>>,
