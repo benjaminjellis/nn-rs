@@ -1,5 +1,8 @@
 ![build status](https://github.com/benjaminjellis/nn-rs/actions/workflows/ci.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/benjaminjellis/nn-rs/blob/main/LICENSE)
+[![crates.io](https://img.shields.io/crates/v/nn-rs.svg)](https://crates.io/crates/nn-rs)
+[![Documentation](https://docs.rs/nn-rs/badge.svg)](https://docs.rs/nn-rs)
+
 
 # nn-rs
 nn-rs is a pure Rust library for finding the nearest neighbours for 1-D vectors using [nalgebra](https://github.com/dimforge/nalgebra). 
