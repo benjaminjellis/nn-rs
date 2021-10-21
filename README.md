@@ -74,7 +74,7 @@ Add the following line to your Cargo.toml file:
 
 ```toml
 [dependencies]
-nn-rs = "0.1.1"
+nn-rs = "0.1.2"
 ```
 
 ## Features 

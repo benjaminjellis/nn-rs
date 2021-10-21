@@ -16,6 +16,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: Install latest stable
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
       - name: Lint
         run: cargo clippy -- -D warnings
       - name: Build
